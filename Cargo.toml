@@ -1,0 +1,15 @@
+[package]
+name = "wasmtime-filesystem-debug"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasi = "0.13.2+wasi-0.2.1"
+
+[package.metadata.component]
+package = "component:wasidemo"
+proxy = true
