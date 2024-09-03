@@ -1,6 +1,6 @@
 # filesystem access check for a wasm:http module in serve mode
 
-This is a wasi:http module that is built just by `cargo component build` with the present Cargo.toml file. 
+This is a wasi:http module that is built just by `cargo component build` with the present Cargo.toml file. There's a [CLI version of this that works here](https://github.com/javorszky/wasmtime-fscheck-cli);
 
 ## How to use this
 

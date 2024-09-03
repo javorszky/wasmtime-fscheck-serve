@@ -27,4 +27,4 @@ dr:
 
 .PHONY: shell
 shell:
-	docker run -it local:wasm-serve /bin/bash
+	docker run -it -p 8080:8080 local:wasm-serve /bin/bash
